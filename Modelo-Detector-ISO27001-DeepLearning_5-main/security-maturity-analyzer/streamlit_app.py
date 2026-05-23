@@ -140,7 +140,7 @@ with st.sidebar:
             unsafe_allow_html=True,
         )
     st.divider()
-    st.caption("ISO/IEC 27001:2013 · COBIT 5 · NTP ISO/IEC 27001:2008")
+    st.caption("ISO/IEC 27001:2022 · COBIT 5 · NTP ISO/IEC 27001:2008")
     st.caption("Comercio Exterior — Tesis 2025")
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -403,7 +403,7 @@ st.markdown(
 )
 st.markdown(
     "El gráfico radar muestra el **perfil de madurez** de la organización en los "
-    "**6 dominios de control ISO/IEC 27001:2013**. Cada vértice representa el score "
+    "**6 dominios de control ISO/IEC 27001:2022**. Cada vértice representa el score "
     "(0–100) de un dominio. Los **anillos de referencia** indican los umbrales de los "
     "5 niveles COBIT. La forma del polígono revela qué áreas son fortalezas y cuáles "
     "requieren atención prioritaria."
@@ -1060,7 +1060,7 @@ with dl3:
 
 st.markdown(f"""
 <footer>
-  🛡 Evaluador de Madurez en Seguridad de la Información · ISO/IEC 27001:2013 · COBIT 5 · NTP ISO/IEC 27001:2008<br>
+  🛡 Evaluador de Madurez en Seguridad de la Información · ISO/IEC 27001:2022 · COBIT 5 · NTP ISO/IEC 27001:2008<br>
   Fuente analizada: <b>{source_label}</b> · Eventos procesados: <b>{result.total_events:,}</b>
 </footer>
 """, unsafe_allow_html=True)
